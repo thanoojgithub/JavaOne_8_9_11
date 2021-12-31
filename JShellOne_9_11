@@ -1,0 +1,39 @@
+thanooj@thanooj-Inspiron-3521:~/Downloads/spark-3.0.3-bin-hadoop2.7$ jshell
+|  Welcome to JShell -- Version 11.0.13
+|  For an introduction type: /help intro
+
+jshell> int a = 10;
+a ==> 10
+
+jshell> System.out.println("a : " + a);
+a : 10
+
+jshell> 2+5
+$3 ==> 7
+
+jshell> $3
+$3 ==> 7
+
+jshell> System.out.println("a : " + $3);
+a : 7
+
+jshell> class RunMe {
+   ...> void showMe(){
+   ...> System.out.println("ShowMe from RunMe");
+   ...> }
+   ...> }
+|  created class RunMe
+
+jshell> new RunMe();
+$7 ==> RunMe@42110406
+
+jshell> $7.
+equals(       getClass()    hashCode()    notify()      notifyAll()   showMe()      toString()    wait(         
+jshell> $7.
+equals(       getClass()    hashCode()    notify()      notifyAll()   showMe()      toString()    wait(         
+jshell> $7.showMe()
+ShowMe from RunMe
+
+jshell> /exit
+|  Goodbye
+thanooj@thanooj-Inspiron-3521:~/Downloads/spark-3.0.3-bin-hadoop2.7$
